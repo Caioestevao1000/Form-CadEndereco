@@ -14,8 +14,8 @@ O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do us
 O Projeto contém 4 funcionalidades:
 
 <ol>
-    <li>Inserção do CEP e preenchimento automático.  
-    <img src="doc/inserindoCEP.gif">  
+    <li>Inserção do CEP e preenchimento automático.<br>
+    <img src="doc/inserindoCEP.gif"><br>
     No JS é representado pela função "preencherFormulario"</li>
     <li></li>
     <li></li>
