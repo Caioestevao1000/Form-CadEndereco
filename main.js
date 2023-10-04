@@ -15,7 +15,7 @@ const limparFomulario = () => {
 const eNumero = (numero) => /^[0-9]+$/.test(numero) // verefica se é numero. ^ ponto de inicio e $ ponto de termina
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);//pega o cep e verefica se é igual a 8
 
-//  Responsavel pelo preenchimento do formulario
+//  Responsavel pelo preenchimento do formulário
 const preencherFormulario = (endereco) => {
     document.getElementById('rua').value = endereco.logradouro;
     document.getElementById('bairro').value = endereco.bairro;

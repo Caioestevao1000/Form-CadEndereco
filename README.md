@@ -1,17 +1,9 @@
-# Form-CadEndereco
+# Formuário de Cadastro de Endereço
 
-# Índice 
-
-* [Projeto de Portfólio Pessoal](#projeto-de-portifolio-pessoal)  
-* [Introdução](#introdu%C3%A7%C3%A3o)  
-* [Funcionalidades](#funcionalidades)  
-* [Tecnologia Utilizadas](#tecnologia-utilizadas)  
-* [Fontes Consultadas](#fontes-consultadas)  
-* [Autores](#autores)  
 
 # Projeto Cadastro de Endereço
-Projeto criado para aprendizado de API
-![Capa do Projeto](video/capaendereco.png)
+Projeto criado para aprendizado de API.
+![Capa do Projeto](doc/img/capaendereco.png)
 
 
 ## Introdução
@@ -20,8 +12,11 @@ O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do us
 
 ## 🛠️Funcioanlidades
 O Projeto contém 4 funcionalidades:
+
 <ol>
-    <li></li>
+    <li>Inserção do CEP e preenchimento automático.
+    <img src="doc/inserindoCEP.gif">
+    No JS é representado pela função "preencherFormulario"</li>
     <li></li>
     <li></li>
     <li></li>
