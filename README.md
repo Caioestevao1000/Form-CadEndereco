@@ -1,9 +1,6 @@
-# Formuário de Cadastro de Endereço
-
-
-# Projeto Cadastro de Endereço
+# Formulário de Cadastro de Endereço
 Projeto criado para aprendizado de API.
-![Capa do Projeto](doc/img/capaendereco.png)
+![Capa do Projeto](doc/img/capaendereco.png)<br>
 
 
 ## Introdução
@@ -12,16 +9,12 @@ O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do us
 
 ## 🛠️Funcioanlidades
 O Projeto contém 4 funcionalidades:
-
 <ol>
-    <li>Inserção do CEP e preenchimento automático.<br>
-    <img src="doc/inserindoCEP.gif"><br>
-    No JS é representado pela função "preencherFormulario"</li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Inserção do CEP e preenchimento automático. <br><img src="doc/inserindoCEP.gif"><br> No JS é representado pela função "preencherFormulario"</li>
+    <li>Confimação do CEP <br><img src="doc/cadastrandoCEP.gif"><br></li>
+    <li>CEP Não Encontrado <br><img src="doc/CEPnaoencontrado.gif"> <br></li>
+    <li>CEP incorreto <br><img src="doc/CEPincorreto.gif"> <br></li>
 </ol>
-
 
 ## 💻Tecnologia Utilizadas
 - :heavy_check_mark: [HTML]
