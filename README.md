@@ -14,7 +14,7 @@ Projeto criado para aprendizado de API.
 
 
 ## Descrição
-O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do usuário seja preenchido os campos cidade, bairro, UF(estado) e logradouro. Foi utilizado a API da ViaCEP, onde foi pego os códigos em JavaScript e também foi feito o uso de ´´Bootstrap.´´
+O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do usuário seja preenchido os campos cidade, bairro, UF(estado) e logradouro. Foi utilizado a API da ViaCEP, onde foi pego os códigos em JavaScript e também foi feito o uso ´´´de´´´ ``Bootstrap.``
 
 
 ## 🛠️Funcioanlidades
