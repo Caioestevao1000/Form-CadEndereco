@@ -22,13 +22,13 @@ O Projeto contém 4 funcionalidades:
 1.Preenchimento Automático.
     ![gif](doc/inserindoCEP.gif)
 
-No JS é representado pela função:
-                const preencherFormulario = (endereco) => {
-                    document.getElementById('rua').value = endereco.logradouro;
-                    document.getElementById('bairro').value = endereco.bairro;
-                    document.getElementById('cidade').value = endereco.localidade;
-                    document.getElementById('estado').value = endereco.uf;
-                }
+No JS é representado pela função:<br>
+            const preencherFormulario = (endereco) => {
+                document.getElementById('rua').value = endereco.logradouro;
+                document.getElementById('bairro').value = endereco.bairro;
+                document.getElementById('cidade').value = endereco.localidade;
+                document.getElementById('estado').value = endereco.uf;
+            }
 Onde é pego as informações da API e preenchidas no formulário. 
 
 2.Confimação do CEP e limpeza dos campos
