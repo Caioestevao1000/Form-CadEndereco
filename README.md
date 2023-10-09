@@ -22,7 +22,8 @@ O Projeto contém 4 funcionalidades:
 1.Preenchimento Automático.
     ![gif](doc/inserindoCEP.gif)
 
-No JS é representado pela função:<br>
+No JS é representado pela função:
+
                 const preencherFormulario = (endereco) => {
                     document.getElementById('rua').value = endereco.logradouro;
                     document.getElementById('bairro').value = endereco.bairro;
