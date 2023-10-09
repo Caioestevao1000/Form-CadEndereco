@@ -14,17 +14,47 @@ Projeto criado para aprendizado de API.
 
 
 ## Descrição
-O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do usuário seja preenchido os campos cidade, bairro, UF(estado) e logradouro. Foi utilizado a API da ViaCEP, onde foi pego os códigos em JavaScript e também foi feito o uso ´´´de´´´ ``Bootstrap.``
+O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do usuário seja preenchido os campos cidade, bairro, UF(estado) e logradouro. Foi utilizado a API da ViaCEP, onde foi pego os códigos em JavaScript e também foi feito o uso de Bootstrap.
 
 
 ## 🛠️Funcioanlidades
 O Projeto contém 4 funcionalidades:
-<ol>
-    <li>Inserção do CEP e preenchimento automático. <br><img src="doc/inserindoCEP.gif"><br> No JS é representado pela função "preencherFormulario"</li><br>
-    <li>Confimação do CEP e limpeza dos campos <br><img src="doc/cadastrandoCEP.gif"><br></li><br>
-    <li>CEP não encontrado <br><img src="doc/CEPnaoencontrado.gif"> <br></li><br>
-    <li>CEP incorreto <br><img src="doc/CEPincorreto.gif"> <br></li><br>
-</ol>
+1.Preenchimento Automático.
+    ![gif](doc/inserindoCEP.gif)
+
+No JS é representado pela função:
+            const preencherFormulario = (endereco) => {
+                document.getElementById('rua').value = endereco.logradouro;
+                document.getElementById('bairro').value = endereco.bairro;
+                document.getElementById('cidade').value = endereco.localidade;
+                document.getElementById('estado').value = endereco.uf;
+            }
+Onde é pego as informações da API e preenchidas no formulário. 
+
+2.Confimação do CEP e limpeza dos campos
+  ![gif](doc/cadastrandoCEP.gif)
+
+            //Verifica se o CEP é válido
+            const eNumero = (numero) => /^[0-9]+$/.test(numero)
+            const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+Verificação do CEP, se contém apenas números, e se possui 8 números.
+
+            //Limpa Formulário
+            const limparFomulario = () => {
+                document.getElementById('rua').value = '';
+                document.getElementById('bairro').value = '';
+                document.getElementById('cidade').value = '';
+                document.getElementById('estado').value = '';
+            }
+Aqui é feito o limpeza dos campos onde o valor está igual a nada(null)
+
+
+CEP não encontrado
+    CEPnaoencontrado.gif
+
+CEP incorreto
+    CEPincorreto.gif
+
 
 
 ## 💻Tecnologia Utilizadas
