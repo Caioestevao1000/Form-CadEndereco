@@ -2,10 +2,9 @@
 
 * [Formulário de Cadastro de Endereço](#formulario-de-cadastro-de-endereço)  
 * [Descrição](#descri%C3%A7%C3%A3o) 
-* [Funcionalidades](#🛠️funcionalidades)  
-* [Tecnologia Utilizadas](#tecnologia-utilizadas)  
-* [Fontes Consultadas](#fontes-consultadas)  
-* [Autores](#autor)  
+* [Funcionalidades](#funcionalidades)  
+* [Tecnologia Utilizadas](#tecnologia-utilizadas)
+* [Autor](#autor)  
 
 
 # Formulário de Cadastro de Endereço
@@ -73,7 +72,7 @@ Aqui é feito o limpeza dos campos onde o valor está igual a nada(ou null). Fun
                 alert("CEP incorreto");
             }
         }
-Aqui é feito a verificação do CEP, onde caso haja algum erro o JS ira avisar com um ``alert``. O ``async`` indica que esta função será assíncrona, permitindo o uso de ``await``, assim podendo chamar a API. O ``fetch(url)`` consulta a API com o CEP e espera os dados em formato JSON. O método ``hasOwnProperty`` verifica se o objeto(``address``)possui uma propriedade específica(``erro``), caso tenha, ele retornar um alert de erro: ``alert("Cep não encontrado")``, caso contrario, ele executa a função ``preencherFormulario(address)`` com os dados recebidos da API.
+Aqui é feito a verificação do CEP, onde caso haja algum erro o JS ira avisar com um ``alert``. O ``async`` indica que esta função será assíncrona, permitindo o uso de ``await``, assim podendo chamar a API. O ``fetch(url)`` consulta a API com o CEP e espera os dados em formato JSON. O método ``hasOwnProperty`` verifica se o objeto(``address``) possui uma propriedade específica(``erro``), caso tenha, ele retornar um alert de erro: ``alert("Cep não encontrado")``, caso contrario, ele executa a função ``preencherFormulario(address)`` com os dados recebidos da API.
 
 
 ## 💻Tecnologia Utilizadas
