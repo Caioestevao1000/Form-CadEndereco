@@ -2,10 +2,10 @@
 
 * [Formulário de Cadastro de Endereço](#formulario-de-cadastro-de-endereço)  
 * [Descrição](#descri%C3%A7%C3%A3o) 
-* [Funcionalidades](#Funcionalidades)  
+* [Funcionalidades](#🛠️funcionalidades)  
 * [Tecnologia Utilizadas](#tecnologia-utilizadas)  
 * [Fontes Consultadas](#fontes-consultadas)  
-* [Autores](#autores)  
+* [Autores](#autor)  
 
 
 # Formulário de Cadastro de Endereço
