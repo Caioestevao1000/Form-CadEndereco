@@ -47,7 +47,7 @@ Verificação do CEP, com o uso de expressão regular, verifica se contém apena
             document.getElementById('cidade').value = '';
             document.getElementById('estado').value = '';
         }
-Aqui é feito o limpeza dos campos onde o valor está igual a nada(ou null). Função Puxada assim que é concluído o consumo da API. 
+Aqui é feito a limpeza dos campos, onde o valor está igual a nada(ou null). Função Puxada assim que é concluído o consumo da API. 
 
 
 3.Mensagens de Erros e Consumo da API.
