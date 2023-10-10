@@ -27,6 +27,7 @@ O Projeto contém 3 funcionalidades:
     ![gif](doc/inserindoCEP.gif)
 
 No JS é representado pela função:
+
         const preencherFormulario = (endereco) => {
             document.getElementById('rua').value = endereco.logradouro;
             document.getElementById('bairro').value = endereco.bairro;
@@ -79,8 +80,8 @@ Aqui é feito a verificação do CEP, onde caso haja algum erro o JS ira avisar 
 
 
 ## 💻Tecnologia Utilizadas
-- :heavy_check_mark: [HTML]
-- :heavy_check_mark: [CSS]
+- :heavy_check_mark: [HTML5]
+- :heavy_check_mark: [CSS3]
 - :heavy_check_mark: [JS]
 - :heavy_check_mark: [BOOTSTRAP]
 - :heavy_check_mark: [GIT]
