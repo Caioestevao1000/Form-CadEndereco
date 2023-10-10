@@ -14,11 +14,8 @@ Projeto criado para aprendizado de API e Expressão Regular.
 
 
 ## Descrição
-O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do
- usuário seja preenchido os campos cidade, bairro, UF(estado) e logradouro. 
-Foi utilizado API da ViaCEP, onde foi pego os códigos em JavaScript, foi util
-izado Arrow Function, Expressão regular e também foi feito o uso de Bootstrap.
-
+O Projeto Cadastro de Endereço, usa API da ViaCEP para que apartir do CEP do usuário seja preenchido os campos cidade, bairro, UF(estado) e logradouro. 
+Foi utilizado códigos em JavaScript, onde foi usado Arrow Function, Expressão regular e também foi feito o uso de Bootstrap.
 
 ## 🛠️Funcionalidades
 O Projeto contém 3 funcionalidades:
